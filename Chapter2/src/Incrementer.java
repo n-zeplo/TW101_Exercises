@@ -5,10 +5,6 @@ public class Incrementer {
 
     private int timesIncrementCalled = 0;
 
-    public static void Main(String[] args){
-
-    }
-
     public void increment(){
         timesIncrementCalled++;
     }
