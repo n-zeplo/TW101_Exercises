@@ -2,7 +2,6 @@
  * Created by Nathan_Zeplowitz on 4/1/15.
  */
 public class Incrementer {
-
     private int timesIncrementCalled = 0;
 
     public void increment(){

@@ -1,7 +1,7 @@
 /**
  * Created by Nathan_Zeplowitz on 4/1/15.
  */
-public class IncrementerTestDriver {
+public class IncrementerTestDrive {
     public static void main(String[] args){
         Incrementer incrementer = new Incrementer();
 
