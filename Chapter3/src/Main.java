@@ -11,5 +11,11 @@ public class Main {
             rectangles[i] = new Rectangle();
         }
 
+        for (int i = 0; i < rectangles.length; i++){
+            rectanglesTotalArea += rectangles[i].area();
+        }
+
+        double rectanglesAverageArea = rectanglesTotalArea / rectangles.length;
+        System.out.println("Total Area is " + rectanglesAverageArea);
     }
 }
