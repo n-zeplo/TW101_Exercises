@@ -5,6 +5,11 @@ public class Rectangle {
     private double height = 1.0;
     private double width = 2.0;
 
+    public Rectangle(double height, double width) {
+        this.height = height;
+        this.width = width;
+    }
+
     public double area(){
         return height * width;
     }
