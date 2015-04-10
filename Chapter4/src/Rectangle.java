@@ -13,4 +13,8 @@ public class Rectangle {
     public double area(){
         return height * width;
     }
+
+    public double perimeter(){
+        return (2 * height) + (2 * width);
+    }
 }
