@@ -3,20 +3,21 @@ import java.util.Scanner;
 /**
  * Created by Nathan_Zeplowitz on 4/11/15.
  */
-public class Diamond {
+public class DiamondWithName {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Diamond diamond = new Diamond();
+        DiamondWithName diamond = new DiamondWithName();
 
         System.out.println("Enter a number");
         int n = in.nextInt();
         diamond.printUpperHalf(n);
+        System.out.println("Nathan");
         diamond.printLowerHalf(n);
 
     }
 
     protected void printUpperHalf(int n){
-        for (int row = 1; row <= n; row++) {
+        for (int row = 1; row < n; row++) {
             String line = "";
             for (int spaces = 0; spaces < n - row; spaces++)
                 line += " ";
@@ -36,5 +37,4 @@ public class Diamond {
             System.out.println(line);
         }
     }
-
 }
