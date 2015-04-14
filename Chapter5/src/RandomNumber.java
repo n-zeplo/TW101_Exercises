@@ -12,15 +12,5 @@ public class RandomNumber {
         return number;
     }
 
-    public String checkGuess(String userGuess) {
-        int guess = Integer.parseInt(userGuess);
 
-        if (guess == getNumber()) {
-            return "Correct";
-        } else if (guess < getNumber()) {
-            return "Your guess was too low.";
-        } else {
-            return "Your guess was too high.";
-        }
-    }
 }
