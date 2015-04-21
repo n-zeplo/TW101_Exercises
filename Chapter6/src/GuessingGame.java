@@ -20,13 +20,13 @@ public class GuessingGame {
                 guessCorrect = true;
                 System.out.println("Your guess was correct. You Win!");
                 System.out.println("Your guesses included:");
-                for(String guess: allUserGuesses){
+                for(String guess: allUserGuesses) {
                     System.out.print(guess + " ");
                 }
-                break;
+            } else {
+                System.out.println(result);
             }
 
-            System.out.println(result);
 
         }
     }
