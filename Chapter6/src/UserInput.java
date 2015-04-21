@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 /**
  * Created by Nathan_Zeplowitz on 4/14/15.
  */
-public class GameHelper {
+public class UserInput {
     public String getUserInput(String prompt) {
         String inputLine = null;
         System.out.print(prompt + " ");

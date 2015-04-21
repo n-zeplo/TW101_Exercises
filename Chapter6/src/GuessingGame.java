@@ -1,5 +1,3 @@
-import com.javafx.tools.doclets.formats.html.SourceToHTMLConverter;
-
 import java.util.ArrayList;
 
 /**
@@ -8,7 +6,7 @@ import java.util.ArrayList;
 public class GuessingGame {
     public static void main(String[] args) {
         RandomNumber randomNumber = new RandomNumber();
-        GameHelper helper = new GameHelper();
+        UserInput helper = new UserInput();
         ArrayList<String> allUserGuesses = new ArrayList<String>();
 
         boolean guessCorrect = false;

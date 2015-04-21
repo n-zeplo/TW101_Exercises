@@ -7,7 +7,7 @@ public class Orc implements Monster {
     public Orc(){
         this.currentHitpoints = 20;
     }
-    
+
     public void takeDamage(int amount){
         this.currentHitpoints -= amount;
     }
