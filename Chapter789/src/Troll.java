@@ -8,10 +8,6 @@ public class Troll implements Monster {
         this.currentHitpoints = 40;
     }
 
-    public Troll(int hitpoints) {
-        this.currentHitpoints = hitpoints;
-    }
-
     public void takeDamage(int amount){
         currentHitpoints -= (amount / 2);
     }
